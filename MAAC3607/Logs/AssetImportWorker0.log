@@ -1,0 +1,305 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56544
+Successfully changed project path to: C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   
+    VRAM:     4043 MB
+    Driver:   30.0.15.1179
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001656 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (502ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.69.0
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (729ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3060.
+Total: 2.856600 ms (FindLiveObjects: 0.230500 ms CreateObjectMapping: 0.070700 ms MarkObjects: 2.481500 ms  DeleteObjects: 0.072700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_Models/Cave
+  artifactKey: Guid(0cb637955f377e34cb60549d75ca3884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave using Guid(0cb637955f377e34cb60549d75ca3884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90573eae7763049108a6b420e30a73f') in 0.007774 seconds 
+  Import took 0.011676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.902100 seconds.
+  path: Assets/_Models/Cave/Cave.fbx
+  artifactKey: Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Cave.fbx using Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ceb1e6c774c4a8a850c06e8144f2dd') in 0.126571 seconds 
+  Import took 0.130571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.392970 seconds.
+  path: Assets/_Models/Cave/Cave.fbx
+  artifactKey: Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Cave.fbx using Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8062a2e11639f174b79be54dbab0264e') in 0.016675 seconds 
+  Import took 0.020821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_Models/Cave/Cave.mat
+  artifactKey: Guid(97788c42dc1a0c646b21f010e4f9ff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Cave.mat using Guid(97788c42dc1a0c646b21f010e4f9ff78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77560c259f8b487526acbd9c63439bec') in 0.009177 seconds 
+  Import took 0.012824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2488.328486 seconds.
+  path: Assets/_Models/Cave/CaveTest.fbx
+  artifactKey: Guid(482b2bd45e12766418e66420fe1e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/CaveTest.fbx using Guid(482b2bd45e12766418e66420fe1e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6cf45e80bed8a3bc3b150765970023') in 0.027954 seconds 
+  Import took 0.035299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.286947 seconds.
+  path: Assets/_Models/Cave/Cave.fbx
+  artifactKey: Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Cave.fbx using Guid(7aca93b6f2c094546a923e902e8547e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71b004c75d5b55e869434e9798439bc') in 0.023779 seconds 
+  Import took 0.028232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.593119 seconds.
+  path: Assets/_Models/Cave/Materials
+  artifactKey: Guid(d07e732a75cb6154b899c6a04e73a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Materials using Guid(d07e732a75cb6154b899c6a04e73a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca429a80102fd8d722179841308a34ae') in 0.004910 seconds 
+  Import took 0.008655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195611 seconds.
+  path: Assets/_Models/Cave/Materials/Cave.mat
+  artifactKey: Guid(c6baef7c8e4c4e34c8b037d4114adbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Materials/Cave.mat using Guid(c6baef7c8e4c4e34c8b037d4114adbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d975a137e3cc43a2225823cd7eaa3a6') in 0.008490 seconds 
+  Import took 0.012394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.760141 seconds.
+  path: Assets/_Models/Cave/CaveTest.fbx
+  artifactKey: Guid(482b2bd45e12766418e66420fe1e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/CaveTest.fbx using Guid(482b2bd45e12766418e66420fe1e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf351c860d64858d359c6a19bcdb8c0') in 0.016588 seconds 
+  Import took 0.020566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_Models/Cave/Cave.001.mat
+  artifactKey: Guid(14cb5e23ac24c334ab20f37f62025f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Cave.001.mat using Guid(14cb5e23ac24c334ab20f37f62025f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa8f671dd070ecd174c40853d0bd1f6') in 0.010362 seconds 
+  Import took 0.014798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.256413 seconds.
+  path: Assets/_Models/Cave/CaveBake.png
+  artifactKey: Guid(e86c392b56f239f4eae908057ccb4c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/CaveBake.png using Guid(e86c392b56f239f4eae908057ccb4c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2658166188a73df2da8d189996148196') in 0.020076 seconds 
+  Import took 0.023942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1195.265359 seconds.
+  path: Assets/_Models/Cave/2KCaveBake.png
+  artifactKey: Guid(c664f5c2308c8a44da70b3e747f497af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/2KCaveBake.png using Guid(c664f5c2308c8a44da70b3e747f497af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268659d33e1ce9467fadcfdc8403244c') in 0.025102 seconds 
+  Import took 0.029415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.588968 seconds.
+  path: Assets/_Models/Cave/Materials/2KCaveBake.mat
+  artifactKey: Guid(eb023ef56700fbf499bd787307676446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Materials/2KCaveBake.mat using Guid(eb023ef56700fbf499bd787307676446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ad2daf26fc666c382ba166c56daf11') in 0.012202 seconds 
+  Import took 0.016263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/_Models/Cave/Materials/CaveBake.mat
+  artifactKey: Guid(b67375813b5525943a725adaf4de1fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Cave/Materials/CaveBake.mat using Guid(b67375813b5525943a725adaf4de1fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dde5ebd23a0821a7f81eaf733f7733e') in 0.009736 seconds 
+  Import took 0.013272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.855225 seconds.
+  path: Assets/_Models/Stairs
+  artifactKey: Guid(a5bac5e889d2e3a4e991122209b96ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs using Guid(a5bac5e889d2e3a4e991122209b96ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddac31ebc6692383d7afcd45c9f121f3') in 0.004838 seconds 
+  Import took 0.008680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.961387 seconds.
+  path: Assets/_Models/Stairs/Stairs.fbx
+  artifactKey: Guid(e62b6337f4c7ab045a21cc25d33fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Stairs.fbx using Guid(e62b6337f4c7ab045a21cc25d33fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c14bc49c48911f7fb3ecdd95a0ed06') in 0.039066 seconds 
+  Import took 0.042971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.529610 seconds.
+  path: Assets/_Models/Stairs/Stairs.fbx
+  artifactKey: Guid(e62b6337f4c7ab045a21cc25d33fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Stairs.fbx using Guid(e62b6337f4c7ab045a21cc25d33fc032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03b4c5baf9bf2072f385d886d97cae1') in 0.081963 seconds 
+  Import took 0.086313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_Models/Stairs/Bricks076B_2K_Roughness.jpg
+  artifactKey: Guid(60bf95ee8e98dfb47baf31baa7a752ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Bricks076B_2K_Roughness.jpg using Guid(60bf95ee8e98dfb47baf31baa7a752ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a989acb0e7af7d7143e3a29d4d7b59') in 0.013199 seconds 
+  Import took 0.016483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/_Models/Stairs/Bricks076B_2K_Color.jpg
+  artifactKey: Guid(a1e3cfd462447574e98fe0e0aef61960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Bricks076B_2K_Color.jpg using Guid(a1e3cfd462447574e98fe0e0aef61960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5902f2fe73037f1bb9db2ad3f57c3432') in 0.014416 seconds 
+  Import took 0.017627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Models/Stairs/Bricks076B_2K_NormalDX.jpg
+  artifactKey: Guid(929492af6ff5d464b92f3ccd15bc7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Bricks076B_2K_NormalDX.jpg using Guid(929492af6ff5d464b92f3ccd15bc7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2c3cff606507cf36a81313d1e20fbe') in 0.022220 seconds 
+  Import took 0.026316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.598091 seconds.
+  path: Assets/_Models/Stairs/Bricks076B_2K_NormalDX.jpg
+  artifactKey: Guid(929492af6ff5d464b92f3ccd15bc7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Stairs/Bricks076B_2K_NormalDX.jpg using Guid(929492af6ff5d464b92f3ccd15bc7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b709075f078e063a9728654c481c5dc') in 0.016191 seconds 
+  Import took 0.020071 seconds .
+
