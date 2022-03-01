@@ -15,12 +15,12 @@ C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65159
+62233
 Successfully changed project path to: C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
 C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.54 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
+Refreshing native plugins compatible for Editor in 67.58 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607/Assets
@@ -36,48 +36,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001653 seconds.
+Registered in 0.001720 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.33 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 59.58 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.488 seconds
+- Completed reload, in  0.492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (492ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (386ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (161ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (162ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005404 seconds.
+Registered in 0.005776 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -85,28 +85,28 @@ Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.69.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (901ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (741ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (154ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (158ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -117,14 +117,14 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.0 MB.
-System memory in use after: 123.2 MB.
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3060.
-Total: 2.882500 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.070200 ms MarkObjects: 2.501400 ms  DeleteObjects: 0.080400 ms)
+Total: 2.840700 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.071300 ms MarkObjects: 2.461500 ms  DeleteObjects: 0.076500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -138,65 +138,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_Models/Stairs
-  artifactKey: Guid(021a3f4634520da478229f70771c46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Stairs using Guid(021a3f4634520da478229f70771c46c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b15641473bfdbe35a8cc24876bd40d') in 0.007692 seconds 
-  Import took 0.011056 seconds .
+  path: Assets/_Models/Boulders/boulder 2.3.fbx
+  artifactKey: Guid(0eb111267cbbf2d4681499794aad15dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 2.3.fbx using Guid(0eb111267cbbf2d4681499794aad15dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94af7c69019eca9b3849aa6d6564210') in 0.122593 seconds 
+  Import took 0.126586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.476320 seconds.
-  path: Assets/_Models/MaterialsFordemoScene
-  artifactKey: Guid(e3e7f6bd328bfba41b01c6220ad301a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/MaterialsFordemoScene using Guid(e3e7f6bd328bfba41b01c6220ad301a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ad4ba8ef697592d5031c122f4f73b7') in 0.005089 seconds 
-  Import took 0.009014 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/_Models/Boulders/boulder 1.3.fbx
+  artifactKey: Guid(3b736f94c5f8cdc45a1f951df1489f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 1.3.fbx using Guid(3b736f94c5f8cdc45a1f951df1489f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fc183c883ac7cd61eb5de507ea5870') in 0.019908 seconds 
+  Import took 0.023433 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.087035 seconds.
-  path: Assets/_Models
-  artifactKey: Guid(02dd346860d2de34dbae8ac337c0a352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models using Guid(02dd346860d2de34dbae8ac337c0a352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee39be9efe8edd206355098b986c423') in 0.004857 seconds 
-  Import took 0.008722 seconds .
+  Time since last request: 5.482772 seconds.
+  path: Assets/_Models/firepit1.fbx
+  artifactKey: Guid(0bdbdc78a5bbd9d4ba277507a5b8b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/firepit1.fbx using Guid(0bdbdc78a5bbd9d4ba277507a5b8b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdfbb0005be0db3a6f979cf35a0c330') in 0.053454 seconds 
+  Import took 0.058090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.347649 seconds.
-  path: Assets/_Models/boulder 1.fbx
-  artifactKey: Guid(d47ceddf5c3d0c84a9f7e0da177ef0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/boulder 1.fbx using Guid(d47ceddf5c3d0c84a9f7e0da177ef0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e15daac11746f2fce0b43fbd406a09f') in 0.127862 seconds 
-  Import took 0.131929 seconds .
+  Time since last request: 16.157510 seconds.
+  path: Assets/_Models/firepit
+  artifactKey: Guid(3b288d99b9c8d1e4ba89ff65cedf2408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/firepit using Guid(3b288d99b9c8d1e4ba89ff65cedf2408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaf06538c6caf8e0b9bdcc626b3c0e8') in 0.005193 seconds 
+  Import took 0.009354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/_Models/boulder 2.fbx
-  artifactKey: Guid(a749879500f72a246a201c8d1d9231b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/boulder 2.fbx using Guid(a749879500f72a246a201c8d1d9231b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd80abb4378349839a6f08fab71cded3') in 0.019658 seconds 
-  Import took 0.022963 seconds .
+  Time since last request: 12.374665 seconds.
+  path: Assets/_Models/Boulders/boulder 1.3.fbx
+  artifactKey: Guid(3b736f94c5f8cdc45a1f951df1489f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 1.3.fbx using Guid(3b736f94c5f8cdc45a1f951df1489f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff636d00e079c169b0c89e2950dcccce') in 0.018751 seconds 
+  Import took 0.022731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.513317 seconds.
-  path: Assets/_Models/Boulders
-  artifactKey: Guid(74e1277c8d3bc88478326203bba3890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Boulders using Guid(74e1277c8d3bc88478326203bba3890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57252343dd032e39070a82804c8fd462') in 0.004555 seconds 
-  Import took 0.008218 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/_Models/Boulders/Greek Stone.mat
+  artifactKey: Guid(a65362d95e793c44fa0c650dd61ca31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Greek Stone.mat using Guid(a65362d95e793c44fa0c650dd61ca31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185d11a14ddfc94b06732eaa0de4dca5') in 0.011241 seconds 
+  Import took 0.014902 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.649782 seconds.
-  path: Assets/_Models/Boulders/boulder 1.fbx
-  artifactKey: Guid(d47ceddf5c3d0c84a9f7e0da177ef0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Boulders/boulder 1.fbx using Guid(d47ceddf5c3d0c84a9f7e0da177ef0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534143fe02c60e5b5b254f991acbf3e1') in 0.019248 seconds 
-  Import took 0.023071 seconds .
+  Time since last request: 686.430395 seconds.
+  path: Assets/_Models/Boulders/boulder 1.1.fbx
+  artifactKey: Guid(dc1950e3735bcd143863afd6901d12df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 1.1.fbx using Guid(dc1950e3735bcd143863afd6901d12df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e762810a82042be1e5e72d15bb0bcb1') in 0.024939 seconds 
+  Import took 0.029223 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/_Models/Boulders/Material.mat
-  artifactKey: Guid(075ea51386a3e3a4a8295d342969597f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Models/Boulders/Material.mat using Guid(075ea51386a3e3a4a8295d342969597f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dbd510232af07ac792c14eead37f51') in 0.014911 seconds 
-  Import took 0.019042 seconds .
+  Time since last request: 2.546967 seconds.
+  path: Assets/_Models/Boulders/boulder 2.1.fbx
+  artifactKey: Guid(e0ddf96a199190b4095b6823151ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 2.1.fbx using Guid(e0ddf96a199190b4095b6823151ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a29636eb12102443e418cf5a5f037e') in 0.023996 seconds 
+  Import took 0.028196 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
