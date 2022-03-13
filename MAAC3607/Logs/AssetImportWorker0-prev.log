@@ -1,0 +1,412 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51376
+Successfully changed project path to: C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.80 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.68 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tactical_Ghost/Documents/GitHub/MAAC3607Project/MAAC3607/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   
+    VRAM:     4043 MB
+    Driver:   30.0.15.1179
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001676 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (489ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (387ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.69.0
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2648 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3066.
+Total: 2.946000 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.564200 ms  DeleteObjects: 0.084600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_Models/Boulders/WallsBoulder1.3Updated.fbx
+  artifactKey: Guid(56a69346552db6249ab530d8e18ecc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/WallsBoulder1.3Updated.fbx using Guid(56a69346552db6249ab530d8e18ecc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275c81c2284dcf24530d8f9fe44dfa30') in 0.130012 seconds 
+  Import took 0.133805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.898508 seconds.
+  path: Assets/_Models/Boulders/WallBoulder2.3Updated.fbx
+  artifactKey: Guid(88f8a9dee5013e2478d9b97e6064468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/WallBoulder2.3Updated.fbx using Guid(88f8a9dee5013e2478d9b97e6064468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2a1ba9c97649a81fcae2cb151f9167') in 0.038212 seconds 
+  Import took 0.042178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.829585 seconds.
+  path: Assets/_Models/Boulders/boulder 1.3 (1).fbx
+  artifactKey: Guid(4b92c44bcc1f73443b6453952eecdb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 1.3 (1).fbx using Guid(4b92c44bcc1f73443b6453952eecdb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c680499f38597953a3b49ddc2796bac5') in 0.045379 seconds 
+  Import took 0.049277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/_Models/Boulders/boulder 2.3 (1).fbx
+  artifactKey: Guid(345fef2a6a5ff11499e765b773ac98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/boulder 2.3 (1).fbx using Guid(345fef2a6a5ff11499e765b773ac98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8012be9ba88f70ae952b281113ed77ad') in 0.019755 seconds 
+  Import took 0.022888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 397.193951 seconds.
+  path: Assets/_Models/Boulders/1BoulderDiffuse 1.png
+  artifactKey: Guid(2d68c01d334b0b34f9bb8d8e5bbe393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/1BoulderDiffuse 1.png using Guid(2d68c01d334b0b34f9bb8d8e5bbe393d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47f09abe233361cbbf0478432ce1859') in 0.031600 seconds 
+  Import took 0.035617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/_Models/Boulders/1BoulderRougness 1.png
+  artifactKey: Guid(712ea09159ef84f4285f28028d9dc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/1BoulderRougness 1.png using Guid(712ea09159ef84f4285f28028d9dc24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f020e003bf39787e502879929f65c91') in 0.010340 seconds 
+  Import took 0.014075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/_Models/Boulders/1BoulderNormal 1.png
+  artifactKey: Guid(ff42bf0fb381dac4c9d7bc51968061df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/1BoulderNormal 1.png using Guid(ff42bf0fb381dac4c9d7bc51968061df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a517c266e89553871740571c87bdddcb') in 0.015434 seconds 
+  Import took 0.019088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.954006 seconds.
+  path: Assets/_Models/Boulders/Materials
+  artifactKey: Guid(16e2e5ae0580d454bbae6df10bc4fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials using Guid(16e2e5ae0580d454bbae6df10bc4fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1640d81b60b70f6e6863e413c8ae9a4') in 0.004911 seconds 
+  Import took 0.008671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072800 seconds.
+  path: Assets/_Models/Boulders/Materials/1BoulderDiffuse.mat
+  artifactKey: Guid(b0c59a8b3752b5247a3f38b935ac89b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/1BoulderDiffuse.mat using Guid(b0c59a8b3752b5247a3f38b935ac89b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c75bacd8f134324ce3b0d8145d188bc') in 0.014160 seconds 
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_Models/Boulders/Materials/rock2normal.mat
+  artifactKey: Guid(a7327e003ba69844882f660763daa929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/rock2normal.mat using Guid(a7327e003ba69844882f660763daa929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fc8e111b89571223a2c023cf5d4fe2') in 0.013001 seconds 
+  Import took 0.016199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/_Models/Boulders/Materials/1BoulderRougness.mat
+  artifactKey: Guid(628ccadc94f1e3d47b36b5aa86181450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/1BoulderRougness.mat using Guid(628ccadc94f1e3d47b36b5aa86181450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c8ae7010ab287fbe0771ffe83fac3') in 0.012543 seconds 
+  Import took 0.015834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_Models/Boulders/Materials/NormalMapBoulder2.mat
+  artifactKey: Guid(a3bfe940292566746ad28b9f2da7f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/NormalMapBoulder2.mat using Guid(a3bfe940292566746ad28b9f2da7f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bbfa6b66064974173915948742afd1') in 0.029318 seconds 
+  Import took 0.032678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Models/Boulders/Materials/NormalMapBoulder1.mat
+  artifactKey: Guid(8f4b0e6f70b2ac94a98ccb3cf317299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/NormalMapBoulder1.mat using Guid(8f4b0e6f70b2ac94a98ccb3cf317299c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81cea7bdca29b8679df4cce9158111c') in 0.013836 seconds 
+  Import took 0.017137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_Models/Boulders/Materials/rock2Rough.mat
+  artifactKey: Guid(61f487f85e7d3b44f9a3427204098617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/rock2Rough.mat using Guid(61f487f85e7d3b44f9a3427204098617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d8f3aa732c823f21b0a2d394dbee7d') in 0.014146 seconds 
+  Import took 0.017344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_Models/Boulders/Materials/Boulder1Bake.mat
+  artifactKey: Guid(1b6aa63fae78c594a92a414c6d69fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/Boulder1Bake.mat using Guid(1b6aa63fae78c594a92a414c6d69fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd94a23756aeeadc9c8f7df50c308705') in 0.020674 seconds 
+  Import took 0.024337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Models/Boulders/Materials/1BoulderNormal 1.mat
+  artifactKey: Guid(b2b2b6cb29111a54a99a9453b772afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/1BoulderNormal 1.mat using Guid(b2b2b6cb29111a54a99a9453b772afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0430391c95921119effd077d24bf46ac') in 0.010542 seconds 
+  Import took 0.013794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_Models/Boulders/Materials/Boulder2Bake.mat
+  artifactKey: Guid(838b81a18b20d9548842808a57a67363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/Materials/Boulder2Bake.mat using Guid(838b81a18b20d9548842808a57a67363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d08c7b92eb59d6dbd160d5eb58e9401') in 0.013888 seconds 
+  Import took 0.017069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.154824 seconds.
+  path: Assets/_Models/Boulders/MicrosoftTeams-image (6).png
+  artifactKey: Guid(788a7dedf9af5744092539b4d21d8682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/MicrosoftTeams-image (6).png using Guid(788a7dedf9af5744092539b4d21d8682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5512637d9cb9c0d0a0fc9cc11c7326') in 0.009585 seconds 
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_Models/Boulders/MicrosoftTeams-image (8).png
+  artifactKey: Guid(8d1a90724e4b601439fe64ad4af99cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/MicrosoftTeams-image (8).png using Guid(8d1a90724e4b601439fe64ad4af99cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1de7ae18b72cefdeab5aebc22b6700') in 0.010847 seconds 
+  Import took 0.014663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/_Models/Boulders/MicrosoftTeams-image (7).png
+  artifactKey: Guid(9cfe0dfba6e74844594b3d24ab47e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Boulders/MicrosoftTeams-image (7).png using Guid(9cfe0dfba6e74844594b3d24ab47e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83707e5c694348f666a57832ac531052') in 0.010065 seconds 
+  Import took 0.013694 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 117.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3113.
+Total: 3.211500 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.822100 ms  DeleteObjects: 0.026200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (945ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.7 MB.
+System memory in use after: 117.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3116.
+Total: 2.974200 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.590700 ms  DeleteObjects: 0.022100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
