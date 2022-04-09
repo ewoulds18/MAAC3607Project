@@ -8649,6 +8649,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: GoblinPrefab (1)
@@ -9272,6 +9296,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: GoblinPrefab (2)
@@ -9773,6 +9821,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: Goblin 1
@@ -11026,6 +11098,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: GoblinPrefab
@@ -11579,6 +11675,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: GoblinPrefab (3)
@@ -12059,6 +12179,133 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c136ca1b23e633b47ac79fe8d12b88d2, type: 3}
+--- !u!1 &1765545270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765545272}
+  - component: {fileID: 1765545271}
+  m_Layer: 0
+  m_Name: Cave Noises
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1765545271
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765545270}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86bdf8bc9f34e364d83a55430685d744, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1765545272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765545270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.411, y: 3.5790632, z: -4.0787983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 57
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1780141447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14792,6 +15039,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 559819368}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ee9ca631c5a29324494f18360edcd63d, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
+    - target: {fileID: 4546604539377947277, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
+      propertyPath: goblinSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
     - target: {fileID: 4546604539377947280, guid: 84cf8f0bcb7a5b44d97c1a718280b02c, type: 3}
       propertyPath: m_Name
       value: Goblin
