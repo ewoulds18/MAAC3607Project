@@ -11,18 +11,32 @@ public class VolumemetricLight : MonoBehaviour{
     private Light light;
     private Mesh mesh;
     public float opacity = 0.5f;
+    public bool needUpdate = false;
     void Start(){
-        meshFilter = GetComponent<MeshFilter>();
-        light = GetComponent<Light>();
-        if(light.type != LightType.Spot){
-            Debug.LogError("Light must be a Spot light");
-        }else{
-            mesh = BuildMesh();
-            meshFilter.mesh = mesh;
+        if(!needUpdate){
+            meshFilter = GetComponent<MeshFilter>();
+            light = GetComponent<Light>();
+            if (light.type != LightType.Spot){
+                Debug.LogError("Light must be a Spot light");
+            }
+            else{
+                mesh = BuildMesh();
+                meshFilter.mesh = mesh;
+            }
         }
     }
     void Update(){
-        
+        if (needUpdate){
+            meshFilter = GetComponent<MeshFilter>();
+            light = GetComponent<Light>();
+            if (light.type != LightType.Spot){
+                Debug.LogError("Light must be a Spot light");
+            }
+            else{
+                mesh = BuildMesh();
+                meshFilter.mesh = mesh;
+            }
+        }
     }
 
     private Mesh BuildMesh(){
