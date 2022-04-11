@@ -5,19 +5,6 @@ using UnityEngine;
 public class Attack : MonoBehaviour{
     int swordDamage = 10;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    
     //Check if sword is hits something
     void OnTriggerEnter(Collider other)
     {

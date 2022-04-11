@@ -9,12 +9,16 @@ public class GoblinController : MonoBehaviour{
     public NavMeshAgent navMeshAgent;
     public Transform player;
     private AudioSource audioSource;
+    private bool isAlive = true;
     // Update is called once per frame
     void Update(){
         if(health <= 0){
             Destroy(this.gameObject);
+            isAlive = false;
         }
-        navMeshAgent.SetDestination(player.position);
+        if(isAlive){
+            navMeshAgent.SetDestination(player.position);
+        }
     }   
     
     //function to decrease health by damage amount
@@ -25,10 +29,14 @@ public class GoblinController : MonoBehaviour{
     public void playSoundOnHit(){
         GameObject sound = new GameObject();
         sound.transform.position = transform.position;
-        int randomSound = Random.Range(0, goblinSounds.Length);
+        int randomSound = Random.Range(0, goblinSounds.Length-1);
         audioSource = sound.AddComponent<AudioSource>();
         audioSource.clip = goblinSounds[randomSound];
         audioSource.Play();
         Destroy(sound, goblinSounds[randomSound].length);
+    }
+
+    public void setPlayer(Transform player){
+        this.player = player;
     }
 }
