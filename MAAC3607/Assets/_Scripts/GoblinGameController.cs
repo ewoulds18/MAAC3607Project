@@ -9,7 +9,7 @@ public class GoblinGameController : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         //get count of all objects with Goblin tag
-        goblinCount = GameObject.FindGameObjectsWithTag("Goblin").Length - 1;
+        goblinCount = GameObject.FindGameObjectsWithTag("Goblin").Length;
         flowerCollider.enabled = false;
     }
 

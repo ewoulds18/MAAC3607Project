@@ -5,12 +5,10 @@ using UnityEngine;
 public class Win : MonoBehaviour{
     public GameObject flower;
     private void OnTriggerEnter(Collider other){
-        if(other.tag == "Player"){
+        if(other.tag == "Hands"){
             Debug.Log("Collected Flower!");
             Destroy(flower);
             Application.Quit();
-        }else{
-            Debug.Log(other);
         }
     }
 }

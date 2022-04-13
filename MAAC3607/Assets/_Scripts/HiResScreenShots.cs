@@ -4,7 +4,7 @@ using System.Collections;
 public class HiResScreenShots : MonoBehaviour {
     public int resWidth = 4096; 
     public int resHeight = 4096;
-    public Camera camera;
+    public new Camera camera;
  
     private bool takeHiResShot = false;
  

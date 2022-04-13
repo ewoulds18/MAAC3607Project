@@ -6,18 +6,24 @@ using UnityEngine.AI;
 public class GoblinController : MonoBehaviour{
     public int health = 30;
     public AudioClip[] goblinSounds;
-    public NavMeshAgent navMeshAgent;
-    public Transform player;
+    private NavMeshAgent navMeshAgent;
+    private GameObject player;
     private AudioSource audioSource;
     private bool isAlive = true;
+
+    void Start(){
+        navMeshAgent = this.GetComponent<NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     // Update is called once per frame
     void Update(){
         if(health <= 0){
             Destroy(this.gameObject);
             isAlive = false;
         }
-        if(isAlive){
-            navMeshAgent.SetDestination(player.position);
+        if(isAlive && player != null){
+            navMeshAgent.SetDestination(player.transform.position);
         }
     }   
     
@@ -34,9 +40,5 @@ public class GoblinController : MonoBehaviour{
         audioSource.clip = goblinSounds[randomSound];
         audioSource.Play();
         Destroy(sound, goblinSounds[randomSound].length);
-    }
-
-    public void setPlayer(Transform player){
-        this.player = player;
     }
 }

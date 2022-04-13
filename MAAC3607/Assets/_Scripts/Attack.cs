@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Attack : MonoBehaviour{
-    int swordDamage = 10;
+    private int swordDamage = 10;
 
     //Check if sword is hits something
     void OnTriggerEnter(Collider other)
@@ -16,5 +16,7 @@ public class Attack : MonoBehaviour{
             Debug.Log("Miss " + other.gameObject);
         }
     }
-    
+    public void AddDamage(int damage){
+        swordDamage += damage;
+    }
 }

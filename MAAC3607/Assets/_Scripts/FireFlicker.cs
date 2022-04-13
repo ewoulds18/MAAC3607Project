@@ -16,7 +16,7 @@ namespace _Scripts
 
         // Keep a copy of the original color
         private Color originalColor; 
-        private Light light;
+        private new Light light;
 
         // Store the original color
         void Start () {   

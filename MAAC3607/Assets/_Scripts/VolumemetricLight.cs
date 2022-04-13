@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class VolumemetricLight : MonoBehaviour{
     private MeshFilter meshFilter;
-    private Light light;
+    private new Light light;
     private Mesh mesh;
     public float opacity = 0.5f;
     public bool needUpdate = false;
