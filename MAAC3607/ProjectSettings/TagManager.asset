@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Goblin
   - Hands
+  - Flower
+  - Spawner
   layers:
   - Default
   - TransparentFX

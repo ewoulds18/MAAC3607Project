@@ -19,8 +19,6 @@ public class GoblinGameController : MonoBehaviour{
             //if all goblins are dead
             Debug.Log("You win!");
             flowerCollider.enabled = true;
-            //Do other things here
-            //Maybe collect flower
         }
     }
 }
