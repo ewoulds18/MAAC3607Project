@@ -20,6 +20,8 @@ public class GoblinController : MonoBehaviour{
     void Update(){
         if(health <= 0){
             Destroy(this.gameObject);
+            GameObject gs = GameObject.FindGameObjectWithTag("Spawner");
+            gs.GetComponent<GoblinSpawner>().GoblinKilled();
             isAlive = false;
         }
         if(isAlive && player != null){

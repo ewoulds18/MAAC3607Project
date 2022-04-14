@@ -8,7 +8,6 @@ public class Flicker : MonoBehaviour
     public float RateDamping;
     public float Strength;
     public bool StopFlickering;
- 
     private Light _lightSource;
     private float _baseIntensity;
     private bool _flickering;
