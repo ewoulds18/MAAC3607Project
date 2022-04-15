@@ -14,6 +14,7 @@ public class GoblinController : MonoBehaviour{
     void Start(){
         navMeshAgent = this.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player");
+        this.GetComponent<CapsuleCollider>().isTrigger = true;
     }
 
     // Update is called once per frame
