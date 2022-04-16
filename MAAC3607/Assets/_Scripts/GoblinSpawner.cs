@@ -31,9 +31,11 @@ public class GoblinSpawner : MonoBehaviour{
                 ResetSpawnTimer();
                 numberOfGoblinsToSpawn--;
             }
-        }else if(GameObject.FindGameObjectsWithTag("Goblin").Length <=0 ){
-            GameObject.FindGameObjectWithTag("Flower").GetComponent<BoxCollider>().enabled = true;
-            progressText.text = "You Win!";
+        }
+        if(Input.GetKeyDown("l")){
+            killedGoblins++;
+            Debug.Log("Killed goblins: " + killedGoblins);
+            UpdateKillCount();
         }
     }
     //Resets the spawn timer with a random offset
