@@ -1332,6 +1332,7 @@ GameObject:
   - component: {fileID: 2611287239223647060}
   - component: {fileID: 2611287239223647062}
   - component: {fileID: 2611287239223647063}
+  - component: {fileID: 762549199390830556}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Goblin
@@ -1352,6 +1353,7 @@ Transform:
   m_Children:
   - {fileID: 4484727523077721821}
   - {fileID: 7657198343163712115}
+  - {fileID: 2680774949619900838}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 257.156, z: 0}
@@ -1406,8 +1408,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e66fee57fc01f56469f44643cc27bd0a, type: 3}
   - {fileID: 8300000, guid: f126ab27e8aa88c48b9f80941093adcf, type: 3}
   - {fileID: 8300000, guid: 71cbb8204af5e304d8decf3bcde120af, type: 3}
-  navMeshAgent: {fileID: 2611287239223647063}
-  player: {fileID: 0}
 --- !u!195 &2611287239223647063
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1430,6 +1430,21 @@ NavMeshAgent:
   m_BaseOffset: -5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
+--- !u!114 &762549199390830556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316488457930704121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6093c0c28b30640ac0c23f7a57d8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 2680774951629153053}
 --- !u!1 &5336749589322752771
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,3 +2404,124 @@ Transform:
   m_Father: {fileID: 7988326090802943361}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6322146697882117781
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4795250280224316995}
+    m_Modifications:
+    - target: {fileID: 8253057912103006951, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912103006951, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253057912812865335, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+      propertyPath: m_Name
+      value: GoblinHealth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+--- !u!224 &2680774949619900838 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8253057912812865331, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+  m_PrefabInstance: {fileID: 6322146697882117781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2680774951629153053 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8253057911064020360, guid: 10bdc139e93aa404dbdfbae0e566c610, type: 3}
+  m_PrefabInstance: {fileID: 6322146697882117781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30753f69b290d64e98640158f268eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
