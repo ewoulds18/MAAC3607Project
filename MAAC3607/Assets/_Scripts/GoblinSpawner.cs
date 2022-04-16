@@ -15,27 +15,27 @@ public class GoblinSpawner : MonoBehaviour{
     public float spawnTimeRandom;
     //Private Variables
     private float spawnTimer;
+    private GameObject flower;
     
     //Used for initialisation
     void Start(){
         TOTAL_GOBLINS = numberOfGoblinsToSpawn;
         progressText.text ="0/" + TOTAL_GOBLINS;
         ResetSpawnTimer();
+        flower = GameObject.FindGameObjectWithTag("Flower");
+        flower.GetComponent<BoxCollider>().enabled = false;
     }
     //Update is called once per frame
     void Update(){
         if(numberOfGoblinsToSpawn > 0 ){
             spawnTimer -= Time.deltaTime;
             if (spawnTimer <= 0.0f){
-                Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+                Instantiate(prefabToSpawn, new Vector3(transform.position.x, transform.position.y, Random.Range(-2f, -6f)), Quaternion.identity);
                 ResetSpawnTimer();
                 numberOfGoblinsToSpawn--;
             }
-        }
-        if(Input.GetKeyDown("l")){
-            killedGoblins++;
-            Debug.Log("Killed goblins: " + killedGoblins);
-            UpdateKillCount();
+        } else{
+            flower.GetComponent<BoxCollider>().enabled = true;
         }
     }
     //Resets the spawn timer with a random offset

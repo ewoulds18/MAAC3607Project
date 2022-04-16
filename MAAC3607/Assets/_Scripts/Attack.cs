@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Attack : MonoBehaviour{
-    private int swordDamage = 10;
+    private int swordDamage = 25;
 
     //Check if sword is hits something
-    void OnTriggerEnter(Collider other)
-    {
+    void OnTriggerEnter(Collider other){
         if (other.gameObject.tag == "Goblin"){
             Debug.Log("Hit");
             other.gameObject.GetComponent<GoblinController>().TakeDamage(swordDamage);
