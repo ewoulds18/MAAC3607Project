@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4797090599162499751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4797090599162499749}
+  - component: {fileID: 4797090599162499750}
+  m_Layer: 0
+  m_Name: RightHandPresence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4797090599162499749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797090599162499751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4797090599162499750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797090599162499751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189f3adaf212be64fb71760baf744cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showController: 0
+  controllerPrefabs:
+  - {fileID: 7634514334346526944, guid: 672017a21077a2a42a5b8a581dceb50d, type: 3}
+  - {fileID: 7634514334346526944, guid: 672017a21077a2a42a5b8a581dceb50d, type: 3}
+  - {fileID: 4245457492171364763, guid: 0e030bb42c74e01429e34cb01ce26858, type: 3}
+  - {fileID: 3235935192520735967, guid: 730aa522c8bcb3a438c1136ed65501ba, type: 3}
+  - {fileID: 8703691736728466387, guid: c43489b5a1ba9b74bbf581e88336f10f, type: 3}
+  - {fileID: 7739215008252990309, guid: ce0916a61bdca984299aa6ae7014ab5b, type: 3}
+  - {fileID: 2921942138095759768, guid: 9fdd537557ab3b7449aebb5f74f82678, type: 3}
+  - {fileID: 2385501562110593366, guid: efa8a130b962f304ebfa859d8edd8792, type: 3}
+  - {fileID: 1596148657618545290, guid: 81c51130537e1194e827e4dae2cf1f3d, type: 3}
+  - {fileID: 90138090254428988, guid: d5d1695b2fffe4344affbb32b507cf70, type: 3}
+  handPrefab: {fileID: 6200032603292675178, guid: 0d9aabbc8a374674ca9b69fc1f713b54, type: 3}
+  controllerCharacteristics: 576

@@ -15,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Floor
-  - Moon
-  - 
-  - 
+  - Ground
+  - Body
+  - Grab
+  - Grab Ignore Ray
   - 
   - 
   - 
