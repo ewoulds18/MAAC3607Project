@@ -15,11 +15,6 @@ public class LocomotionController : MonoBehaviour{
     public bool enableRightTeleport {get; set;} = true;
     public bool enableLeftTeleport {get; set;} = true;
 
-    void Start(){
-        
-    }
-
-    // Update is called once per frame
     void Update(){
         Vector3 pos = new Vector3();
         Vector3 norm = new Vector3();
@@ -28,8 +23,6 @@ public class LocomotionController : MonoBehaviour{
 
         if(leftTeleportRay){
             bool isLeftInteracterRayHovering = leftRayInteractor.TryGetHitInfo(out pos, out norm, out index, out validTarget);
-
-        
             leftTeleportRay.gameObject.SetActive(!isLeftInteracterRayHovering && enableLeftTeleport && CheckIfActivated(leftTeleportRay));
         }
         if (rightTeleportRay){
